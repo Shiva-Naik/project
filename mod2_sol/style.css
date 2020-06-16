@@ -23,7 +23,8 @@ div > h3{
 	text-align: center;
 	padding: 5px 10px;
 	margin:0px;
-	
+	position: absolute;
+	right:0px;
 }
 .div1 h3{
 	background-color: #fa2;
@@ -36,8 +37,10 @@ div > h3{
 	background-color: #f55;
 }
 p{
+	position: relative;
+	top:10px;
 	padding:10px 10px;
-	clear:right;
+	/*clear:right;*/
 }
 @media (min-width: 768px) and (max-width: 991px){
 	.div1{
